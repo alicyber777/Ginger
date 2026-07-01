@@ -4,8 +4,7 @@
       "command": "uvx",
       "args": ["mcp-google-sheets@latest"],
       "env": {
-        "CREDENTIALS_CONFIG": "${GOOGLE_SA_BASE64}",
-        "DRIVE_FOLDER_ID": "${DRIVE_FOLDER_ID}"
+        "CREDENTIALS_CONFIG": "${GOOGLE_SA_BASE64}"
       }
     }
   }
